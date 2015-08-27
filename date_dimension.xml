@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+
+<menuitem name="Date Dimension" sequence="0" id="date_dimension" action="act_date_dimension_window"/>
