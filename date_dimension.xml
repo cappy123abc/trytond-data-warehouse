@@ -1,3 +1,12 @@
 <?xml version="1.0"?>
 
+ <record model="ir.action.act_window" id="act_date_dimension_window">
+     <field name="name">Blah</field>
+     <field name="res_model">dw.date</field>
+ </record>
 <menuitem name="Date Dimension" sequence="0" id="date_dimension" action="act_date_dimension_window"/>
+ <record model="ir.action.act_window.view" id="act_data_warehouse_view1">
+     <field name="sequence" eval="10"/>
+     <field name="view" ref="date_dimension_form"/>
+     <field name="act_window" ref="act_date_dimension_window"/>
+ </record>
